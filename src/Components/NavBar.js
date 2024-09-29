@@ -67,7 +67,7 @@ export default function NavBar({ isActive }) {
           </div>
 
 
-          <div className='text-2xl md:text-3xl flex xl:hidden text-white'
+          <div className='text-2xl md:text-3xl flex xl:hidden text-black'
             onClick={menuhandler}>
             <RiMenu3Line />
           </div>
@@ -86,7 +86,7 @@ export default function NavBar({ isActive }) {
         <div className='flex py-4 px-4 md:px-7 justify-between items-center w-full  border-b border-[#ffffff33]'>
           <div className='flex items-center gap-3'>
             <NavLink to='/'>
-            <h1 className="text-2xl font-bold">AI & ML Platform</h1>
+            <h1 className="text-xl font-bold text-white">AI & ML Platform</h1>
             </NavLink>
           </div>
           <div className='text-white text-xl bg-blue-900/20 p-2 md:p-3 rounded-full group cursor-pointer  hover:rotate-180' onClick={menuhandler}>
