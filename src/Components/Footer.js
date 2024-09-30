@@ -6,7 +6,7 @@ export default function Footer() {
   return (
     <>
 
-<footer className="bg-gray-600 text-white fixed bottom-0 w-full px-4 md:px-7 xl:px-[150px] py-4">
+<footer className="bg-gray-600 text-white  w-full px-4 md:px-7 xl:px-[150px] py-4">
       <div className="container mx-auto flex justify-between items-center">
         <p>&copy; 2024 AI & ML Platform. All rights reserved.</p>
         <nav className="flex space-x-4">
